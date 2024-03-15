@@ -408,7 +408,7 @@ iframe{
 
 /* ***************************************************************************************** */
 
-
+/* 
 @media screen and (max-width: 900px) {
     .navbar-brand>#logobrand{
         margin-left: 200px;
@@ -419,13 +419,13 @@ iframe{
         margin-top: -200px;
     }
     #vision{
-        /* margin-top: -220px; */
+        margin-top: -220px;
     }
     #runningNumt{
         width: 100%;
     }
     #runningNum {
-        /* width: 100%; */
+        width: 100%;
         margin-left: 25px;
         padding: 100px 0 100px 0px;
     }
@@ -447,4 +447,4 @@ iframe{
         width: 100%;
         margin-top: -100px;
     }
-}
+} */
