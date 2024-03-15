@@ -409,14 +409,39 @@ iframe{
 /* ***************************************************************************************** */
 
 
-@media only screen and (max-width: 550px) {
-    .navbar-brand{
-        margin-left: 150px;
+@media screen and (max-width: 700px) {
+    .navbar-brand>#logobrand{
+        margin-left: 200px;
     }
     .navbar-toggler{
         margin-right: 40px;
     }
     #topvdo{
         margin-top: -200px;
+    }
+    #vision{
+        margin-top: -220px;
+    }
+    #runningNumt{
+        width: 100%;
+    }
+    #runningNum {
+        /* width: 100%; */
+        margin-left: 25px;
+        padding: 100px 0 100px 0px;
+    }
+    #runningNum>div>h2 {
+        color: rgb(29, 179, 29);
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
+    #runningNum>div>p {
+        color: darkblue;
+        font-size: 18px;
+        font-weight: bolder
+    }
+    .col-sm-2 {
+        float:none;
     }
 }
