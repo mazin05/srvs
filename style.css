@@ -405,3 +405,18 @@ iframe{
     color: white;
     margin-bottom: 10px;
     }
+
+/* ***************************************************************************************** */
+
+
+@media only screen and (max-width: 550px) {
+    .navbar-brand{
+        margin-left: 150px;
+    }
+    .navbar-toggler{
+        margin-right: 40px;
+    }
+    #topvdo{
+        margin-top: -200px;
+    }
+}
