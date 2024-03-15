@@ -409,18 +409,17 @@ iframe{
 /* ***************************************************************************************** */
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .navbar-brand>#logobrand{
         margin-left: 200px;
     }
-    .navbar-toggler{
-        margin-right: 40px;
-    }
     #topvdo{
+        height: 200px;
+        width: 100%;
         margin-top: -200px;
     }
     #vision{
-        margin-top: -220px;
+        /* margin-top: -220px; */
     }
     #runningNumt{
         width: 100%;
@@ -443,5 +442,9 @@ iframe{
     }
     .col-sm-2 {
         float:none;
+    }
+    #carouselExampleFade{
+        width: 100%;
+        margin-top: -100px;
     }
 }
