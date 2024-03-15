@@ -6,6 +6,11 @@ html{
     width: 8%
 }
 
+#logobrand{
+    width: 100px;
+    margin-left: 50px;
+}
+
  #toppart {
      width: 100%;
      height: 10px;
