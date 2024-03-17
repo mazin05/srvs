@@ -54,7 +54,9 @@
               <a class="nav-link" href="./academics.html">Academics</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="./admission.html" id="admisn">Admissions</a>
+              <a class="nav-link links" href="./admission.html" id="admisn"
+                >Admissions</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./curriculum.html">Curriculum</a>
@@ -92,103 +94,100 @@
         </div>
       </div>
     </nav>
-    <!-- ***************************************************************************************************** -->
+
+    <!-- ******************************************************************************************* -->
 
     <div id="curriculum">
-      <center>Messages</center>
+      <center><h2>School Admission Form</h2></center>
     </div>
+
     <div id="topdivs">
-      <div class="container">
-        <div class="row">
-          <div id="messagefrom">FOUNDER'S MESSAGE</div>
-          <div class="col-sm">
-            <img src="./tetsing.webp" alt="" />
+      <div class="containerbox">
+        <form id="admissionForm" onsubmit="return validateForm()">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
           </div>
-          <div class="col-sm messagetext">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            exercitationem tempora natus modi dolore, corporis veniam
-            repellendus non ratione ullam pariatur nobis molestias quod nulla
-            omnis, saepe repellat sint officia culpa atque? Excepturi assumenda,
-            iure optio ut dolore enim, exercitationem repellat qui veritatis eos
-            est. Sapiente ea asperiores corporis sit.
-            <p id="nameofmessage">MR.**********</p>
+          <div class="form-group">
+            <label for="fatherName">Father's Name</label>
+            <input type="text" id="fatherName" name="fatherName" required />
           </div>
+          <div class="form-group">
+            <label for="motherName">Mother's Name</label>
+            <input type="text" id="motherName" name="motherName" required />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fatherMobile">Father's Mobile</label>
+            <input
+              type="tel"
+              maxlength="10"
+              id="fatherMobile"
+              name="fatherMobile"
+              pattern="[0-9]{10}"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="motherMobile">Mother's Mobile</label>
+            <input
+              type="tel"
+              maxlength="10"
+              id="motherMobile"
+              name="motherMobile"
+              pattern="[0-9]{10}"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="" name="street" placeholder="House Number,Street" required /> 
+            <br>
+            <br>
+            <input type="text" id="" name="pincode" placeholder="Pincode" required /> 
+            <br>
+            <br>
+            <input type="text" id="" name="district" placeholder="District" required />
+          </div>
+          <div class="form-group">
+            <label for="bloodGroup">Blood Group</label>
+            <input type="text" id="bloodGroup" name="bloodGroup" />
+          </div>
+          <div class="form-group">
+            <label for="tcFile">Transfer Certificate File:</label>
+            <input
+              type="file"
+              id="tcFile"
+              name="tcFile"
+              accept=".pdf,.doc,.docx"
+              required
+            />
+          </div>
+          <div class="declaration">
+          <p>
+            <strong>Declaration:</strong> By submitting this form, I certify
+            that the information provided is accurate to the best of my
+            knowledge.
+          </p>
         </div>
+        <center>
+          <input type="submit" value="Submit" />
+          </center>
+        </form>
 
-        <div class="row">
-          <div id="messagefrom">CHAIRMAN’S MESSAGE</div>
-          <div class="col-sm messagetext">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            exercitationem tempora natus modi dolore, corporis veniam
-            repellendus non ratione ullam pariatur nobis molestias quod nulla
-            omnis, saepe repellat sint officia culpa atque? Excepturi assumenda,
-            iure optio ut dolore enim, exercitationem repellat qui veritatis eos
-            est. Sapiente ea asperiores corporis sit.
-            <p id="nameofmessage">MR.**********</p>
-          </div>
-          <div class="col-sm"><img src="./tetsing.webp" alt="" /></div>
-        </div>
-
-        <div class="row">
-          <div id="messagefrom">PRINCIPAL MESSAGE</div>
-          <div class="col-sm">
-            <img src="./tetsing.webp" alt="" />
-          </div>
-          <div class="col-sm messagetext">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            exercitationem tempora natus modi dolore, corporis veniam
-            repellendus non ratione ullam pariatur nobis molestias quod nulla
-            omnis, saepe repellat sint officia culpa atque? Excepturi assumenda,
-            iure optio ut dolore enim, exercitationem repellat qui veritatis eos
-            est. Sapiente ea asperiores corporis sit.
-            <p id="nameofmessage">MR.**********</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="boardofmanage">
-        <center>BOARD OF MANAGEMENT</center>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-
-          <div class="col-sm boardmembers">
-            <p>NAME</p>
-            <p>LOC</p>
-          </div>
-        </div>
+        
       </div>
     </div>
-    <br /><br /><br />
 
-    <!-- ******************************************************************************************** -->
+    <!-- ******************************************************************************************* -->
 
     <div class="footer">
       <div class="container">
@@ -230,6 +229,7 @@
         </div>
       </div>
     </div>
+
     <!-- ***************************************************************************************************** -->
 
     <script src="/index.js"></script>

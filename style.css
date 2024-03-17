@@ -983,4 +983,57 @@ iframe{
     color: var(--primary-clr);
 }
 
-/* media queries */
+/* ****************************************************** */
+
+
+ .containerbox {
+     max-width: 600px;
+     margin: 20px auto;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .form-group {
+     margin-bottom: 20px;
+ }
+
+ label {
+     font-weight: bold;
+ }
+
+ input[type="text"],
+ input[type="tel"],
+ select {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-sizing: border-box;
+ }
+
+ input[type="submit"] {
+     background-color: #4caf50;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ input[type="submit"]:hover {
+     background-color: #45a049;
+ }
+
+ .error {
+     color: red;
+     font-size: 14px;
+ }
+
+ #address{
+    width: 100%;
+ }
+ .declaration {
+     margin-top: 30px;
+ }

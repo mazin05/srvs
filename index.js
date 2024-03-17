@@ -566,3 +566,31 @@ function convertTime(time) {
   time = timeHour + ":" + timeMin + " " + timeFormat;
   return time;
 }
+
+
+// **********************************************************************
+
+
+
+ function validateForm() {
+        var form = document.getElementById("admissionForm");
+        var inputs = form.getElementsByTagName("input");
+        var selects = form.getElementsByTagName("select");
+        var valid = true;
+
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].hasAttribute("required") && inputs[i].value.trim() === "") {
+                valid = false;
+                showError(inputs[i], "This field is required.");
+            }
+        }
+
+        for (var i = 0; i < selects.length; i++) {
+            if (selects[i].hasAttribute("required") && selects[i].value === "") {
+                valid = false;
+                showError(selects[i], "Please select an option.");
+            }
+        }
+
+        return valid;
+    }
