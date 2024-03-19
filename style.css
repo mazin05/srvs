@@ -266,12 +266,21 @@ a:hover {
     border-radius: 80px;
 }
 
+#topdivs>div>h5 {
+    margin: 20px 0 10px 20px ;
+    border-left: 5px solid cadetblue;
+    border-radius: 80px;
+    font-weight: 700;
+    color: darkblue;
+}
+
 #topdivs>div>h3{
     background-color: whitesmoke;
     padding-top: 20px;
     padding-bottom: 30px;
     text-indent: 10px;
 }
+
 #topdivs>div>p{
     font-size: 20px;
     padding: 10px;
@@ -1125,6 +1134,31 @@ iframe{
     pointer-events: none;
     /* Make sure clicks pass through */
 }
+
+/* ********************************************************************************************************************* */
+
+.faceb {
+    padding: 15px;
+    font-size: 20px !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.faceb:hover {
+    background: #5e81cc;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.col>a>.fa{
+ aspect-ratio: 3/2;
+ object-fit: contain;
+}
+
 
 /* ********************************************************************************************************************* */
 
