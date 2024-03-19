@@ -571,7 +571,6 @@ function convertTime(time) {
 // **********************************************************************
 
 
-
  function validateForm() {
         var form = document.getElementById("admissionForm");
         var inputs = form.getElementsByTagName("input");
@@ -606,3 +605,26 @@ redi.onclick=()=>{
 
   // *******************************************************************************************
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function(){
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+
+    var backgroundContent = document.getElementsByClassName("background-content")[0];
+    backgroundContent.style.display = "block"; // Show background content
+
+    var closeButton = document.getElementsByClassName("close")[0];
+    closeButton.onclick = function() {
+      modal.style.display = "none";
+      backgroundContent.style.display = "none"; // Hide background content when modal is closed
+    };
+
+    var navigateButton = document.getElementById("navigateButton");
+    navigateButton.onclick = function() {
+      // Redirect to other page
+      window.location.href = "other_page.html";
+    };
+  }, 2000); 
+});

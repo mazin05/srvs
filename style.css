@@ -7,16 +7,16 @@ html{
     height: 200px;
 }
 
-#logobrand{
+/* #logobrand{
     width: 100px;
     margin-left: 50px;
-}
+} */
 
  #toppart {
      width: 100%;
      height: 10px;
      padding: 10px 0 0px 0;
-     margin-bottom: 12%;
+     margin-bottom: 10%;
  }
 
 /* ---------------------------------------------- */
@@ -92,7 +92,7 @@ nav>div {
     float: left;
 }
 #runningNum{
-    /* margin-left: 200px; */
+    margin-left: 200px;
     padding: 100px 0 200px 0;
 }
 #runningNumt{
@@ -1054,6 +1054,79 @@ iframe{
     font-weight: 600;
  }
 
+/* ********************************************************************************************************************* */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contents {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#admsnbnr{
+    width: 100%;
+    height: 700px;
+}
+
+.background-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 490%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Semi-transparent white */
+    filter: blur(5px);
+    /* Apply blur effect */
+    z-index: 999;
+    /* Make sure it's behind the modal */
+    pointer-events: none;
+    /* Make sure clicks pass through */
+}
+
+/* ********************************************************************************************************************* */
 
 @media screen and (min-width: 990px) and (max-width:1100px){
 
@@ -1075,5 +1148,34 @@ iframe{
         margin-left: 200px;
         padding: 100px 0 200px 0;
     }
-
+    #logo {
+        width: 80%;
+        height: 200px;
+    }
+    #toppart {
+        width: 100%;
+        height: 10px;
+        padding: 10px 0 0px 0;
+        margin-bottom: 14%;
+    }
+    #runningNum {
+        /* margin-left: 200px; */
+        padding: 100px 0 200px 0;
+    }
+    .background-content {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 455%;
+        background-color: rgba(255, 255, 255, 0.7);
+        /* Semi-transparent white */
+        filter: blur(5px);
+        /* Apply blur effect */
+        z-index: 999;
+        /* Make sure it's behind the modal */
+        pointer-events: none;
+        /* Make sure clicks pass through */
+    }
 }
