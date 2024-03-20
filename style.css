@@ -362,7 +362,10 @@ iframe{
     color: black;
     font-weight: 600;
     font-size: 20px;
+}
 
+#quotes{
+    color: coral;
 }
 
 #messageimg{
