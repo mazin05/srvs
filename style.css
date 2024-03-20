@@ -73,6 +73,7 @@ nav>div {
     display: block;
 }
 
+
 /* ---------------------------------------------- */
 
 .carousel-item>img {
@@ -334,23 +335,20 @@ iframe{
 
 
 #messagefrom{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     */
     color: darkblue;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-/* #messagefrom>div>div{
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-} */
 
 .messagetext{
     font-size: 20px;
-    color:#1a66ff;
+    /* color:#1a66ff; */
+    color: rgb(31, 31, 123);;
     font-weight: 600;
 }
 
@@ -359,9 +357,13 @@ iframe{
 }
 #nameofmessage{
     margin-top: 2px;
-    color: black;
-    font-weight: 600;
+    color: darkred;
+    font-weight: 700;
     font-size: 20px;
+}
+#nameofmessagebelow{
+    color: darkred;
+    margin-top: -40px;
 }
 
 #quotes{
@@ -1247,13 +1249,33 @@ border-radius: 10px;
 /* ********************************************************************** */
 
 #facilityimage{
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px darkcyan;
 }
 
 #facility>div>div{
-    margin-bottom: 12%;
+    margin-bottom: 10%;
     text-align: justify;
 }
 
+/* #facility>#topdivs>div>p{
+    pass;
+} */
+/* ************************************************************************* */
+
+#topdivsLab {
+    padding: 50px 0 0 30px;
+    margin-bottom: 50px;
+}
+
+#phylabs{
+    width: 33%;
+    border-radius: 10px;
+
+}
+
+.nav>li{
+    font-size: 25px;
+}

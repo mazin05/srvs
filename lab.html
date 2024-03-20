@@ -10,6 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -20,12 +22,41 @@
     />
     <link rel="icon" href="./srvs_logo.png" />
     <title>SRVS NATIONAL HR. SEC. SCHOOL</title>
+
+    <style>
+  .nav-stacked>li>a:hover,.nav-tabs>li>a:hover{
+    background-color: lightgreen;
+    color:crimson;
+}
+hr{
+    border: none;
+    height: 1px;
+    background: lightseagreen;
+    width: 100%;
+}
+
+.welc{
+    color:black;
+    font-weight: bolder;
+}
+
+#box{
+    border-radius: 5px;
+    border-width: 3px;
+    width: 20%;
+    height: 30px;
+}
+.nav-tabs>li{
+  font-size: 20px;
+  display: flex;
+  
+}
+    </style>
   </head>
   <body>
-  
-    <!-- ****************************************************************** -->
 
-    
+<!-- ******************************************************************************************** -->
+
   <div id="toppart">
       <center>
         <!-- <img src="./srvs_logo.png" alt="" id="logo" /> -->
@@ -33,7 +64,7 @@
       </center>
   </div>
   <br>
- <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <!-- <a class="navbar-brand" href="./index.html"><b>SRVS</b></a> -->
         <button
@@ -119,35 +150,63 @@
       </div>
     </nav>
 
-
-    <!-- ***************************************************************************************************** -->
+<!-- ********************************************************************************************* -->
 <div id="staff">
-      <center>CO-SCHOLASTIC PROGRAMME</center>
+      <center>LABS</center>
 </div>
-<div id="topdivs">
-    <div>
-        <h3>MUSIC</h3>
-        <p>💎 Many studies have found a correlation between music and academic excellence. At SRVS, music is a vital part of the curriculum. As students engage themselves in the world of music, they develop the finer aspects of their personalities.
-</p>
-        <h3>DANCE</h3>
-        <p>💎 Dance is one of the most loved Co-curricular activities. Students are taught diverse forms of Indian classical dances, folk dances and contemporary styles.
-</p>
-        <h3>PHYSICAL EDUCATION</h3>
-        <p>💎 All year groups have PE classes slotted in the timetable. It plays a central role in supporting the ethos of the schood. SRVS belives live healthier and can make our students live mange challenging emotions and achieve personal and academic success
-</p>
-        <h3>SILAMBAM</h3>
-        <p>💎 Silambam which is one of the oldest martial arts in India is offered as an extra-curricular actiuty to children of all age groups. At SRVS, the school has been Concentrating on improving the fitress and self-defence of students learning selambam at our school increases self-confidence and concentration.</p>
-        <h3>YOGA</h3>
-        <p>💎 SRVS offers a chance to appreciate and explore the spiritual, physical, psychological and societal dimensions through yoga. yoga, the fantastic science of life and living is an endles chasm of information that bring knowledge, Leading to wisdom.
-</p>
-        <h3>KARATE</h3>
-        <p>
-        💎 At SRVS, the main martial art on offer is Karate. Through Karate, our aim is to bring the benefits the karate training to as many children as possible, helping them to build their self confidence and emotional skills so they have the chance to reach their full potential in everything they do.</p>
+
+<div id="topdivsLab">
+    
+    <div  class="tab-pane fade in active">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#list1" data-toggle="tab">Physics </a></li>
+        <li><a href="#list2" data-toggle="tab">Chemistry </a></li>
+        <li><a href="#list3" data-toggle="tab">Computer </a></li>
+        <li><a href="#list4" data-toggle="tab">Biology </a></li>
+        <li><a href="#list5" data-toggle="tab">Mathematics </a></li>
+        <li><a href="#list6" data-toggle="tab">Composite </a></li>
+        <li><a href="#list7" data-toggle="tab">Atal </a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="list1" class="tab-pane fade in active">
+            <p>Our physics lab is aimed in enabling student to learn physics theories in a more elaborative manner of its applications.</p>
+            <img src="./labs/phy1.jpg" alt="" id="phylabs">
+            <img src="./labs/phy2.jpg" alt="" id="phylabs">
+            <img src="./labs/phy3.jpg" alt="" id="phylabs">
+        </div>
+        <div id="list2" class="tab-pane fade">
+            <p>The chemistry lab is designed with keeping all the statutory norms and safety standards. It is well ventilated as well as spacious.</p>
+            <img src="./labs/chem1.jpg" alt="" id="phylabs">
+            <img src="./labs/chem2.jpg" alt="" id="phylabs">
+            <img src="./labs/chem3.jpg" alt="" id="phylabs">
+        </div>
+        <div id="list3" class="tab-pane fade">
+           <p></p>
+            
+        </div>
+        <div id="list4" class="tab-pane fade">
+            <p>In the biology lab, the students study detailed structures, morphological, histological and physiological aspects of plants and animals.</p>
+            <img src="./labs/bio1.jpg" alt="" id="phylabs">
+            <img src="./labs/bio3.jpg" alt="" id="phylabs">
+            <img src="./labs/bio2.jpg" alt="" id="phylabs">
+        </div>
+        <div id="list5" class="tab-pane fade">
+            <h3>Mathematics</h3>
+            
+        </div>
+        <div id="list6" class="tab-pane fade">
+            <h3>Composite</h3>
+            
+        </div>
+        <div id="list7" class="tab-pane fade">
+            <h3>atal</h3>
+            
+        </div>
+        
     </div>
-</div>
-
-
-
+    </div>
+  
+</div>    
 
 <!-- ******************************************************************************************** -->
  <div class="footer">
@@ -209,10 +268,11 @@
     <!-- ***************************************************************************************************** -->
 
     <script src="/index.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
   </body>
 </html>
