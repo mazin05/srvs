@@ -350,7 +350,7 @@ iframe{
 
 .messagetext{
     font-size: 20px;
-    color: darkcyan;
+    color:#1a66ff;
     font-weight: 600;
 }
 
@@ -366,7 +366,7 @@ iframe{
 }
 
 #messageimg{
-width: 80%;
+width: 50%;
 border-radius: 10px;
 }
 
@@ -397,7 +397,7 @@ border-radius: 10px;
 
 .boardmembers{
     background-color: whitesmoke;
-    box-shadow: 10px 10px 5px lightblue; ;
+    box-shadow: 10px 10px 5px lightblue; 
     padding: 3%;
     margin: 5px;
 }
@@ -1239,3 +1239,18 @@ border-radius: 10px;
             height: 500px;
         }
 }
+
+
+/* ********************************************************************** */
+
+#facilityimage{
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px darkcyan;
+}
+
+#facility>div>div{
+    margin-bottom: 12%;
+    text-align: justify;
+}
+
