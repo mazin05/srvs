@@ -282,7 +282,11 @@ a:hover {
     padding-bottom: 30px;
     text-indent: 10px;
 }
-
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
 #topdivs>div>p{
     font-size: 25px;
     padding: 10px;
