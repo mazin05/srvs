@@ -53,9 +53,9 @@ nav>div {
 .links:hover{
         border-radius: 8%;
         text-decoration: none !important;
-        background-color: red !important;
+        background-color:#3d9c42 !important;
         color: white !important;
-        font-weight: 600;
+        font-weight: 500;
 }
 .collapse>.navbar-nav>.nav-item>a {
     font-size: 20px;
@@ -71,6 +71,11 @@ nav>div {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+#aboutdrop {
+    top: 40px;
+    right: -20px;
+    width: 500%;;
 }
 
 
