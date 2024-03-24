@@ -1267,7 +1267,9 @@ border-radius: 10px;
             margin-bottom: 10%;
             text-align: justify;
         }
-        
+        #pointsimg{
+            width: 90% !important;
+        }
 
 }
 
