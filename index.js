@@ -637,3 +637,5 @@ admnmodal.onclick = function() {
   window.location.href = "./admission.html";
 };
 
+// **************************************************************************************
+
