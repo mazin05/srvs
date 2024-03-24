@@ -1195,17 +1195,20 @@ border-radius: 10px;
 
 /* ********************************************************************************************************************* */
 
-@media screen and (min-width: 990px) and (max-width:1100px){
+@media screen and (min-width: 990px) and (max-width:1200px){
     
     .navbar{
         margin-top: 10px;
         z-index: 3;
     }
+
     .collapse>.navbar-nav>.nav-item>a {
         font-size: 20px;
-        margin-left: 11px;
-        
+        margin-left: 40px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif !important;
     }
+
     #topvdo {
         height: 200px;
         width: 100%;
@@ -1269,7 +1272,9 @@ border-radius: 10px;
 
 @media screen and (min-width: 900px) and (max-width:1100px) {
     .navbar-expand-lg>.container-fluid {
-        margin: 70px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 0 -10px;
         display: block;
     }
 }
