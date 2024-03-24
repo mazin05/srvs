@@ -1267,6 +1267,16 @@ border-radius: 10px;
             margin-bottom: 10%;
             text-align: justify;
         }
+        #schoolmask {
+            text-align: center;
+            font-size: 100px !important;
+            font-weight: 700;
+            background-image: url(./schoolmask.jpg);
+            background-size: contain;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
 
 }
 
