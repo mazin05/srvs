@@ -27,8 +27,7 @@ nav>div {
 }
 
 .navbartwo{
-    margin-top: -15px !important;
-    
+    margin-top: 10px !important;
 }
 
 .nav-item>a:hover {
@@ -54,7 +53,7 @@ nav>div {
         
 }
 .collapse>.navbar-nav>.nav-item>a {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 40px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
             sans-serif !important;
@@ -1200,7 +1199,11 @@ border-radius: 10px;
 
 @media screen and (min-width: 990px) and (max-width:1200px){
 
-
+    .navbartwo{
+        margin-top: -15px !important;
+        z-index: 1 !important;
+    }
+    
     .navbar{
         margin-top: 20px;
         z-index: 3;
