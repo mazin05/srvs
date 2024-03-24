@@ -630,3 +630,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   // *******************************************************************************************
+
+
+var admnmodal = document.getElementById("admsnbnr");
+admnmodal.onclick = function() {
+  window.location.href = "./admission.html";
+};
+
