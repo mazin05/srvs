@@ -25,21 +25,11 @@ html{
     margin-top: 15px;
 }
 
-.navbar-brand {
-    font-size: 30px;
-    color: chocolate;
-    margin-left: 15px;
-}
-
-.navbar-brand>b{
-    color: blue;
-    margin-left: 50px;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 nav>div {
     background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
 
 }
 
@@ -47,20 +37,25 @@ nav>div {
     border-radius: 8%;
     text-decoration: underline;
     color: rgb(204, 121, 62);
-    font-weight: 600;
+    font-weight: 700;
     text-decoration-color: rgb(204, 121, 62);
+    transform: scale(1);
     
+}
+.dropdown-item:hover{
+    transform: scale(1.04);
 }
 .links:hover{
         border-radius: 8%;
         text-decoration: none !important;
         background-color:#3d9c42 !important;
         color: white !important;
-        font-weight: 500;
+        font-weight: 700;
+        
 }
 .collapse>.navbar-nav>.nav-item>a {
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .nav-item>ul>li>a:hover{
