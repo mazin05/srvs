@@ -1315,3 +1315,52 @@ border-radius: 10px;
 
 
 /* ******************************************************************* */
+
+#schoolmask{
+    text-align: center;
+    font-size: 200px;
+    font-weight: 700;
+    background-image: url(./schoolmask.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* ******************************************************************* */
+
+.stickerspart{
+    margin: 20px 0 20px 0;
+}
+
+.stickersup{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 60px;
+}
+#stickersupimg{
+    width: 100%;
+}
+
+#stickersupimg:hover {
+ transform: scale(1.02);
+ border-radius: 5px;
+box-shadow: 10px 10px 5px rgb(202, 214, 218); 
+}
+
+.stickersdown {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#stickersdownimg{
+   width: 60%;
+}
+
+#stickersdownimg:hover {
+    transform: scale(1.02);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(202, 214, 218);
+}
