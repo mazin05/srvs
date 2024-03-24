@@ -28,10 +28,8 @@ html{
 
 nav>div {
     background-color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif !important;
-
 }
+
 
 .nav-item>a:hover {
     border-radius: 8%;
@@ -56,6 +54,8 @@ nav>div {
 .collapse>.navbar-nav>.nav-item>a {
     font-size: 20px;
     margin-left: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif !important;
 }
 
 .nav-item>ul>li>a:hover{
