@@ -183,7 +183,7 @@ nav>div {
 /* ---------------------------------------------- */
 
 .footer {
-    background-color: rgb(3, 3, 54);
+    background-color: rgb(56, 6, 6);
     color: #fff;
     padding: 40px 0;
 }
@@ -1353,4 +1353,50 @@ box-shadow: 10px 10px 5px rgb(202, 214, 218);
     transform: scale(1.02);
     border-radius: 5px;
     box-shadow: 10px 10px 5px rgb(202, 214, 218);
+}
+
+/* ************************************************ */
+
+
+.careerdiv{
+    padding: 40px 0px;
+    cursor: pointer;
+}
+
+.careerdiv>div>div{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    margin: 10px 0;
+}
+
+.careerdiv>div>div:hover {
+    transform: scale(1.05);
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-left: 10px solid darkcyan;
+    border-right: 10px solid darkmagenta;
+}
+.careerdiv>div>div>h4 {
+    font-size: 25px;
+    color: #3B5998;
+    font-weight: 700;
+    text-indent: 15px;
+}
+
+.careerdiv>div>div>p {
+    color: #3d9c42;
+    font-size: 15px;
+    font-weight: 600;
+    text-indent: 15px;
+}
+#clickcareer{
+    color: red;
+}
+
+#vacant{
+    font-size: 18px;
+    font-weight: 700;
+    color:darkred;
+    text-indent: 15px;
 }
