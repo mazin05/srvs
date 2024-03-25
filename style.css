@@ -1399,4 +1399,5 @@ box-shadow: 10px 10px 5px rgb(202, 214, 218);
     font-weight: 700;
     color:darkred;
     text-indent: 15px;
+    display: none;
 }

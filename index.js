@@ -639,3 +639,9 @@ admnmodal.onclick = function() {
 
 // **************************************************************************************
 
+
+
+function redirect() {
+  let iframes=document.getElementById("iframe");
+  iframes.scrollIntoView({ behavior: 'smooth' });
+}
