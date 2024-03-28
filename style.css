@@ -21,7 +21,6 @@ html{
     margin-top: 15px;
 }
 
-
 nav>div {
     background-color: white;
 }
@@ -300,7 +299,7 @@ h3 {
     font-weight: 700;
 }
 #topdivs>div>p{
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px;
     text-indent: 50px;
 }
