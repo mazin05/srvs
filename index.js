@@ -645,3 +645,13 @@ function redirect() {
   let iframes=document.getElementById("iframe");
   iframes.scrollIntoView({ behavior: 'smooth' });
 }
+
+// ***********************************************************************************
+
+
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); 
+      return false;
+    }
+  }
