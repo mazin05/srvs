@@ -56,6 +56,7 @@ nav>div {
     margin-left: 40px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
             sans-serif !important;
+
 }
 
 .nav-item>ul>li>a:hover{
@@ -1495,3 +1496,14 @@ box-shadow: 10px 10px 5px rgb(202, 214, 218);
 
 /* *************************************************** */
 
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+}
