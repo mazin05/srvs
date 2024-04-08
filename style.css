@@ -1196,12 +1196,6 @@ border-radius: 10px;
             sans-serif;
     }
 
-    #topvdo {
-        height: 200px;
-        width: 100%;
-        margin-top: -100px !important;
-        margin-bottom: -100px;
-    }
     #runningNum {
         margin-left: 200px;
         padding: 100px 0 200px 0;
@@ -1243,6 +1237,13 @@ border-radius: 10px;
             width: 100%;
             height: 500px;
         }
+
+        /* #topvdo {
+             height: 200px;
+             width: 100%;
+             margin-top: -100px !important;
+             margin-bottom: -100px;
+         } */
         #facilityimage {
             width: 40% !important;
             margin-left: 15px;
