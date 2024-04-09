@@ -1272,6 +1272,9 @@ border-radius: 10px;
             padding: 5px;
             border-radius: 45px;
         }
+        .accordion-item>h2>button{
+            font-size: 18px !important;
+        }
 }
 
 @media screen and (max-width: 989px) {
