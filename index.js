@@ -159,7 +159,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const increment = () => {
     if (currentNumber < targetNumber) {
       currentNumber++;
-      display.textContent = currentNumber;
+      display.textContent = currentNumber + '+';
       setTimeout(increment, 10); // Adjust the timeout for desired speed
     }
   };
@@ -692,6 +692,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 2000); 
 });
 
+
   // *******************************************************************************************
 
 
@@ -712,12 +713,16 @@ function redirect() {
 // ***********************************************************************************
 
 
-  function disableRightClick(event) {
-    if (event.button == 2) {
-      event.preventDefault(); 
-      return false;
-    }
-  }
 
+
+  // function disableRightClick(event) {
+  //   if (event.button == 2) {
+  //     event.preventDefault(); 
+  //     return false;
+  //   }
+  // }
+
+
+  
 
 
