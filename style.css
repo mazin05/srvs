@@ -1275,6 +1275,14 @@ border-radius: 10px;
         .accordion-item>h2>button{
             font-size: 18px !important;
         }
+         #eliteimg {
+            margin: 20px 0 20px 0;
+             font-size: 60px !important;
+         }
+        #hmewrkimg1 {
+            width: 40% !important;
+            margin: 60px 0 !important;
+        }
 }
 
 @media screen and (max-width: 989px) {
@@ -1827,4 +1835,33 @@ h2 {
 
 .c5{
     background-color: rgb(247, 186, 230);
+}
+
+
+/* ***************************************************************************** */
+
+
+#eliteimg {
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: url("./design/smoke.jpg") 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0 20px 0;
+}
+
+#hmewrkimg{
+    width: 10%;
+    float:inline-end;
+     margin: 20px;
+    border-radius: 10px;
+}
+
+#hmewrkimg1 {
+    width: 30%;
+    float:left;
+    margin: 20px;
+    border-radius: 10px;
 }
