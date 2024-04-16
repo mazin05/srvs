@@ -1110,7 +1110,7 @@ border-radius: 10px;
     border: 1px solid #888;
     width: 50%;
     border-radius: 5%;
-    margin-top: 50%;
+
     /* height: 40; */
     /* Could be more or less, depending on screen size */
 }
@@ -1290,6 +1290,17 @@ border-radius: 10px;
             width: 20% !important;
             margin: 60px 0 !important;
         }
+         .modal-contents {
+             background-color: #fefefe;
+             margin: 3% auto;
+             /* 15% from the top and centered */
+             padding: 20px;
+             border: 1px solid #888;
+             width: 60%;
+             border-radius: 5%;
+             margin-top: 50%;
+             
+         }
 }
 
 @media screen and (max-width: 989px) {
