@@ -1,6 +1,8 @@
 html{
     scroll-behavior: smooth;
 }
+
+
 /* ---------------------------------------------- */
 #logo{
     width: 75%;
@@ -1108,6 +1110,7 @@ border-radius: 10px;
     border: 1px solid #888;
     width: 50%;
     border-radius: 5%;
+    margin-top: 50%;
     /* height: 40; */
     /* Could be more or less, depending on screen size */
 }
@@ -1876,3 +1879,4 @@ h2 {
     margin: 20px;
     border-radius: 10px;
 }
+
