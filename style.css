@@ -1298,8 +1298,12 @@ border-radius: 10px;
              border: 1px solid #888;
              width: 60%;
              border-radius: 5%;
-             margin-top: 50%;
-             
+             margin-top: 50%; 
+         }
+
+         #design3{
+            text-align: justify;
+            width: 40% !important;
          }
 }
 
@@ -1890,4 +1894,5 @@ h2 {
     margin: 20px;
     border-radius: 10px;
 }
+
 
