@@ -1305,6 +1305,12 @@ border-radius: 10px;
             text-align: justify;
             width: 40% !important;
          }
+                 
+         #panorama {
+             width: 90%;
+             height: 650px;
+             border-radius: 10px;
+         }
 }
 
 @media screen and (max-width: 989px) {
