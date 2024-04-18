@@ -1307,7 +1307,7 @@ border-radius: 10px;
          }
                  
          #panorama {
-             width: 90%;
+             width: 90% !important;
              height: 650px;
              border-radius: 10px;
          }
