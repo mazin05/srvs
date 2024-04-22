@@ -717,12 +717,12 @@ function redirect() {
 
 
 
-  // function disableRightClick(event) {
-  //   if (event.button == 2) {
-  //     event.preventDefault(); 
-  //     return false;
-  //   }
-  // }
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); 
+      return false;
+    }
+  }
 
 
   
