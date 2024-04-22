@@ -117,6 +117,7 @@ nav>div {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .centered>p{
     font-size: 25px;
     font-weight: 700;
@@ -1725,7 +1726,7 @@ box-shadow: 10px 10px 5px rgb(202, 214, 218);
     11.1111111111% {
         transform: translateY(100%) scale(0.7);
         opacity: 0.4;
-        visibility: visible;
+        visibility: hidden;
     }
 
     14.1111111111%,
@@ -1739,13 +1740,13 @@ box-shadow: 10px 10px 5px rgb(202, 214, 218);
     33.3333333333% {
         transform: translateY(-100%) scale(0.7);
         opacity: 0.4;
-        visibility: visible;
+        visibility: hidden;
     }
 
     36.3333333333% {
         transform: translateY(-100%) scale(0.5);
         opacity: 0;
-        visibility: visible;
+        visibility: hidden;
     }
 
     100% {
